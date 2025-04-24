@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cofeeHero{
+    background-image: url(./assets/home/heroBg.png);
+}
+
+.CofeeTime{
+    background-image: linear-gradient(rgba(0 ,0 ,0 ,0.3) , rgba(0 ,0 ,0 ,0.3)) ,  url(./assets/home/cofeeTimeBg.jpeg);
+    background-size: 100%;
+
+}
+
+
+@media screen and (max-width : 800px) {
+    
+    .CofeeTime{
+        background-image: linear-gradient(rgba(0 ,0 ,0 ,0.3) , rgba(0 ,0 ,0 ,0.3)) ,  url(./assets/home/cofeeTimeBg.jpeg);
+        background-size: cover;
+    
+    }
+    .menu_hero{
+        background-repeat: no-repeat;
+      
+    }
+}
+
+
+.menu_hero{
+    background-image: url(./assets/menu/menuhero.png);
+    background-position: center;
+}
